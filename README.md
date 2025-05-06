@@ -29,9 +29,9 @@ This project contains automated tests for the Todo App using [Playwright](https:
 3. **Install Playwright Browsers**:
    After installing dependencies, you need to install the required Playwright browsers by running:
    ```bash
-   npx playwright install
+   npx playwright install chromium
    ```
-   This command downloads the necessary browser binaries (e.g., Chromium, Firefox, WebKit) required to run the tests.
+   This command downloads the necessary browser binaries (e.g., Chromium in this case) required to run the tests.
 
 ## Scripts
 
