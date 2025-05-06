@@ -16,8 +16,8 @@ This project contains automated tests for the Todo App using [Playwright](https:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/todoApp.git
-   cd todoApp
+   git clone https://github.com/shayo91/todo-app.git
+   cd todo-app
    ```
 
 2. **Install Dependencies**:
@@ -26,15 +26,28 @@ This project contains automated tests for the Todo App using [Playwright](https:
    npm install
    ```
 
+3. **Install Playwright Browsers**:
+   After installing dependencies, you need to install the required Playwright browsers by running:
+   ```bash
+   npx playwright install
+   ```
+   This command downloads the necessary browser binaries (e.g., Chromium, Firefox, WebKit) required to run the tests.
+
 ## Scripts
 
 The following scripts are defined in the `package.json` file:
 
-- **Run Tests**:
+- **Run Tests in Headed Mode**:
   ```bash
   npm run test
   ```
   This command runs all the Playwright tests in **headed mode**, which means the browser will be visible during the test execution.
+
+- **Run Tests in Headless Mode**:
+  ```bash
+  npm run test:headless
+  ```
+  This command runs all the Playwright tests in **headless mode**, which means the browser will run in the background without a visible UI.
 
 - **Run Tests and Show Report**:
   ```bash

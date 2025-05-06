@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "playwright test --headed",
+    "test:headless": "playwright test",
     "test:report": "playwright test --headed && playwright show-report"
   },
   "keywords": [],
